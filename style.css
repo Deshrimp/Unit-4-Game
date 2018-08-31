@@ -1,0 +1,49 @@
+body {
+  background-image: url(./images/oldpaper.jpg);
+}
+.character {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  display: inline-block;
+  margin: 1rem;
+  position: relative;
+}
+
+.hp {
+  position: absolute;
+  color: white;
+}
+
+#battlemessage {
+  text-align: center;
+  font-weight: 700;
+}
+#playerdmg {
+  color: green;
+}
+
+#defenderdmg {
+  color: red;
+}
+
+.charactername {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+}
+
+#Saruman {
+  background-image: url("./images/saruman.jpg");
+}
+#Elrond {
+  background-image: url("./images/elrond.png");
+}
+#Orc {
+  background-image: url("./images/orc.png");
+}
+#Gandalf {
+  background-image: url("./images/gandalf.jpg");
+}
